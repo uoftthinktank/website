@@ -389,6 +389,7 @@ a {
 a:focus, a:hover {
   color: #014c8c;
   text-decoration: underline;
+  color: blue;
 }
 
 a:focus {
@@ -3775,10 +3776,13 @@ input[type="button"].btn-block {
   padding-bottom: 0.25rem;
   margin-right: 1rem;
   font-size: 1.25rem;
+  color: blue;
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
   text-decoration: none;
+  color: blue;
+
 }
 
 .navbar-brand > img {

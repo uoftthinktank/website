@@ -18,83 +18,69 @@
     <!-- Material Design Bootstrap -->
     <link href="../website/css/mdb.min.css" rel="stylesheet">
 
+    <link href="css/mdb.css" rel="stylesheet">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
     <!-- Template styles -->
-    <style rel="stylesheet">
+    <style>
         /* TEMPLATE STYLES */
-        /* Necessary for full page carousel*/
         
         html,
-        body {
+        body,
+        .view {
             height: 100%;
         }
         /* Navigation*/
         
         .navbar {
-            background-color: transparent;
+            background-color: #1C2331;
+        }
+        
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
         }
         
         .top-nav-collapse {
-            background-color: #4285F4;
+            background-color: #1C2331;
         }
         
         footer.page-footer {
-            background-color: #4285F4;
+            background-color: #0275d8;
         }
         
         @media only screen and (max-width: 768px) {
             .navbar {
-                background-color: #4285F4;
+                background-color: #1C2331;
             }
         }
-        /* Carousel*/
-        
-        .carousel {
-            height: 50%;
-        }
-        
-        @media (max-width: 776px) {
-            .carousel {
-                height: 100%;
-            }
-        }
-        
-        .carousel-item,
-        .active {
-            height: 100%;
-        }
-        
-        .carousel-inner {
-            height: 100%;
-        }
-        
-        .carousel-item:nth-child(1) {
-            background-image: url("http://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0.4;
-        }
-        
-        .carousel-item:nth-child(2) {
-            background-image: url("http://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .carousel-item:nth-child(3) {
-            background-image: url("http://mdbootstrap.com/img/Photos/Slides/img%20(67).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        /*Caption*/
+        /*Call to action*/
         
         .flex-center {
             color: #fff;
+        }
+        
+        .view {
+            background: url("../website/cover1.jpg")no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        /*Contact section*/
+        
+        #contact .fa {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #1C2331;
         }
     </style>
 
 </head>
 
-<body>
+<body style="background-color: #c0bdbc;">
 
 
     <!--Navbar-->
@@ -107,20 +93,23 @@
             <!--Collapse content-->
             <div class="collapse navbar-toggleable-xs" id="collapseEx">
                 <!--Navbar Brand-->
-                <a class="navbar-brand" href="../website/index.html">UofT Think Tank</a>
+                <a class="navbar-brand" href="../website/index.html" style="color: #fff">UofT Think Tank</a>
                 <!--Links-->
                 <ul class="nav navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="https://kabir25.typeform.com/to/g4FQxu">Apply</a>
+                        <a class="nav-link" href="https://goo.gl/forms/jLdUoW3LjveNHaVy2" style="color: #fff">Apply</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../website/upcomingevents.html">Upcoming Events</a>
+                        <a class="nav-link" href="../website/upcomingevents.html" style="color: #fff">Upcoming Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../website/gallery.html">Gallery</a>
+                        <a class="nav-link" href="../website/gallery.html" style="color: #fff">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../website/about.html">About</a>
+                        <a class="nav-link" href="../website/about.html" style="color: #fff">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../website/president.html" style="color: #fff">Meet the President</a>
                     </li>
                 </ul>
             </div>
@@ -141,7 +130,7 @@
     <h1 style="text-align: center;">Upcoming events</h1>
     <br>
 
-    <h4 style="text-align: center;">Feel free to join us at any of these events! We'd love to have you 😊 <br> In addition to these events, we have weekly meetings. Please sign up <a href="https://kabir25.typeform.com/to/g4FQxu">here</a> to be updated regularly.</h4><br>
+    <h4 style="text-align: center;">Feel free to join us at any of these events! We'd love to have you 😊 <br> In addition to these events, we have weekly meetings. Please sign up <a href="https://goo.gl/forms/jLdUoW3LjveNHaVy2">here</a> to be updated regularly.</h4><br>
     <p>
         <h5>Winter Welcome Back</h5>
         <br>
@@ -204,7 +193,7 @@
 
                 <!--First column-->
                 <div style="text-align: center;">
-                    <h5 class="title" >Questions? Contact us <a href="https://kabir25.typeform.com/to/I1iDGS">here</a>!</h5>
+                    <h5 class="title" >Questions? Contact us <a href="https://goo.gl/forms/0gryCj7HkaO8J0Ko1">here</a>!</h5>
                 </div>
                 <!--/.First column-->
 

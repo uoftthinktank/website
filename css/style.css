@@ -1,1 +1,9 @@
 /* YOUR CUSTOM STYLES */
+
+a.containter.collapse.navbar-brand:hover {
+	color: green;
+}
+
+img { 
+   border:1px solid #021a40;
+}

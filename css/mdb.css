@@ -7937,6 +7937,7 @@ i.btn-danger {
 @media (max-width: 768px) {
   .navbar .navbar-toggleable-sm .navbar-brand {
     float: none;
+    color: blue;
   }
   .navbar .navbar-toggleable-sm ul {
     float: none;
